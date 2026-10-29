@@ -1,6 +1,6 @@
 [project]
 name = "business-workflow-manager"
-version = "1.5.0"
+version = "1.6.1"
 description = "Reusable workflow engine with ORM models, YAML config, and runtime step progression"
 readme = { file = "README.md", content-type = "text/markdown"}
 license = "LGPL-3.0-only"
@@ -37,7 +37,7 @@ classifiers = [
 ]
 requires-python = ">=3.11"
 dependencies = [
-    "sqlalchemy~=2.0",
+    "sqlalchemy>=2.0,<2.1",
     "pydantic>=2.0",
     "pyyaml",
     "jmespath",

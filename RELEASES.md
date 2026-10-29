@@ -1,3 +1,11 @@
+## Release 1.6.1
+
+- Fix sync with github
+
+## Release 1.6.0
+
+- Update dependencies related to certificate vulnerability
+
 ## Release 1.5.0
 
 - Simplify API for loading multiple workflows
